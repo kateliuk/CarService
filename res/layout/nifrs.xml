@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<RelativeLayout 
+	    android:id="@+id/title"
+	    android:layout_width="match_parent"
+	    android:layout_height="48dp"
+	    android:layout_gravity="top"
+	    android:background="@drawable/top_bg">
+	    <TextView 
+	        android:text="@string/nifrs"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#ffff"
+	        android:textSize="20sp"
+	        android:layout_centerInParent="true"
+	        />
+	    <ImageButton 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="5dp"
+	        android:contentDescription="@string/app_name"
+	        android:src="@drawable/help_photo_pai"
+	        android:onClick="help"
+	        android:background="@null"/>
+	</RelativeLayout>
+    <!-- 添加显示百度地图的控件 -->
+
+    <com.baidu.mapapi.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        />
+
+</LinearLayout>
