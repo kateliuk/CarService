@@ -28,7 +28,7 @@ public class AboutAcivity extends Activity {
 		company_address = (TextView) findViewById(R.id.company_address);
 		company_tel = (TextView) findViewById(R.id.company_tel);
 		company_web = (TextView) findViewById(R.id.company_web);
-		detail_title.setText("广本长捷dsg");
+		detail_title.setText("广本长捷");
 		company_name.setText("济南搜索在线广告有限公司");
 		company_address.setText("济南市二环东路3966号东环国际广场B座 2305室");
 		company_tel.setText("400 655 2477");
